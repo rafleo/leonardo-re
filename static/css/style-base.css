@@ -1,0 +1,1152 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+	font-family: sans-serif; /* 1 */
+	-ms-text-size-adjust: 100%; /* 2 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+	margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+	display: block;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+	background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+	outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+	font-weight: bold;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+	font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.8em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+	border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+	margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td,
+th {
+	padding: 0;
+}
+
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.container.wide {
+	max-width: 100%;
+}
+.column,
+.columns {
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.three.columns {
+	padding-bottom: 50px;
+}
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+	line-height: 1.6;
+	font-weight: 400;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #222;
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0;
+	margin-bottom: 2rem;
+	font-weight: 300;
+}
+
+h1,
+h2,
+h3 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 3rem;
+	line-height: 1.2;
+}
+h2 {
+	font-size: 2.4rem;
+	line-height: 1.25;
+}
+h3 {
+	font-size: 2rem;
+	line-height: 1.3;
+	letter-spacing: -0.05rem;
+}
+h4 {
+	font-size: 2.4rem;
+	line-height: 1.35;
+	letter-spacing: -0.08rem;
+}
+h5 {
+	/*font-size: 2rem;*/
+	font-size: 1.8rem;
+	line-height: 1.5;
+	letter-spacing: -0.05rem;
+}
+h6 {
+	font-size: 1.5rem;
+	line-height: 1.6;
+	letter-spacing: 0;
+}
+
+h2 span {
+	color: #686868;
+}
+
+h4 sup {
+	font-size: 1.2rem;
+	padding: 2px 8px;
+	background: #1eaedb;
+	color: #fff;
+	letter-spacing: 1px;
+	border-radius: 9px;
+}
+
+h4 a {
+	padding: 21px 0;
+}
+
+p {
+	margin-top: 0;
+}
+
+p.center {
+	text-align: center;
+}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+	color: #1eaedb;
+	text-decoration: none;
+	background-image: linear-gradient(#ccc, #ccc);
+	background-repeat: no-repeat;
+	background-size: 100% 1.5px;
+	background-position: center bottom 29%;
+	background-origin: padding-box;
+	padding: 10px 0;
+	text-shadow:
+		3px 0 #fff,
+		2px 0 #fff,
+		1px 0 #fff,
+		-1px 0 #fff,
+		-2px 0 #fff;
+	-webkit-transition: background-image 0.1s linear;
+	-moz-transition: background-image 0.1s linear;
+	-o-transition: background-image 0.1s linear;
+	transition: background-image 0.1s linear;
+}
+
+a:hover {
+	color: #0fa0ce;
+	background-image: linear-gradient(#0fa0ce, #0fa0ce);
+}
+
+a.btn {
+	color: #fff;
+	background: #888;
+	text-shadow: none;
+	padding: 0.3em 0.7em;
+	border-radius: 2px;
+}
+
+a.btn:hover {
+	background: #747474;
+}
+
+.laurel-line a,
+.laurel-line a:hover {
+	background-image: none;
+}
+
+::-moz-selection {
+	background: #1eaedb;
+	color: #fff;
+	text-shadow: none;
+}
+
+::selection {
+	background: #1eaedb;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* Tabs
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.tab {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin: -2.5rem 0 2.5rem;
+}
+
+.tab input {
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+}
+
+.tab label {
+	position: relative;
+	display: block;
+	line-height: 2.75rem;
+	color: #1eaedb;
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 0.25rem 4rem;
+	cursor: pointer;
+	-webkit-transition: border 0.2s ease;
+	-moz-transition: border 0.2s ease;
+	-o-transition: border 0.2s ease;
+	transition: border 0.2s ease;
+}
+
+.tab label:hover {
+	color: #0fa0ce;
+	border-bottom-color: #0fa0ce;
+}
+
+.tab-content {
+	max-height: 0;
+	overflow: hidden;
+	margin: 1.5rem 0 0 4rem;
+	-webkit-transition: max-height 0.5s linear;
+	-moz-transition: max-height 0.5s linear;
+	-o-transition: max-height 0.5s linear;
+	transition: max-height 0.5s linear;
+}
+
+.tab input:checked ~ .tab-content {
+	max-height: 50rem;
+}
+
+.tab input:checked ~ .tab-content.tab-content-long {
+	max-height: 200rem;
+}
+
+.tab label::after {
+	content: '+';
+	position: absolute;
+	left: -4rem;
+	top: 0;
+	display: block;
+	width: 3rem;
+	height: 3rem;
+	font-size: 1.5em;
+	line-height: 3rem;
+	border-radius: 3rem;
+	text-align: center;
+	background: #e8e8e8;
+	-webkit-transition: all 0.35s ease;
+	-moz-transition: all 0.35s ease;
+	-o-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+}
+
+.tab label:hover::after {
+	color: #fff;
+	background: #0fa0ce;
+}
+
+.tab input:checked + label::after {
+	-webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	transform: rotate(135deg);
+}
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+	display: inline-block;
+	height: 38px;
+	padding: 0 30px;
+	color: #555;
+	text-align: center;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: transparent;
+	border: 1px solid #bbb;
+	cursor: pointer;
+	box-sizing: border-box;
+	text-shadow: none;
+	background-image: none;
+	-webkit-transition: background 0.1s linear;
+	-moz-transition: background 0.1s linear;
+	-o-transition: background 0.1s linear;
+	transition: background 0.1s linear;
+}
+.button:hover,
+.button:focus {
+	color: #333;
+	border-color: #888;
+	outline: 0;
+	text-shadow: none;
+	background-image: none;
+}
+.button.button-primary {
+	color: #fff;
+	background-color: #065bb9;
+	border-color: #065bb9;
+}
+.button.button-primary:hover,
+.button.button-primary:focus {
+	color: #fff;
+	background-color: #0774eb;
+	border-color: #0774eb;
+}
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul {
+	list-style: circle outside;
+}
+ol {
+	list-style: decimal outside;
+}
+ol,
+ul {
+	padding-left: 2rem;
+	margin-top: 0;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+	margin: 1.5rem 0 1.5rem 3rem;
+	font-size: 90%;
+}
+li {
+	margin-bottom: 0.5rem;
+}
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+th,
+td {
+	padding: 12px 15px;
+	text-align: left;
+	border-bottom: 1px solid #e1e1e1;
+	vertical-align: top;
+}
+th:first-child,
+td:first-child {
+	padding-left: 0;
+}
+th:last-child,
+td:last-child {
+	padding-right: 0;
+}
+
+/* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+button,
+.button {
+	margin-bottom: 1rem;
+}
+input,
+textarea,
+select,
+fieldset {
+	margin-bottom: 1.5rem;
+}
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+	margin-bottom: 2.5rem;
+}
+
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.u-full-width {
+	width: 100%;
+	box-sizing: border-box;
+}
+.u-max-full-width {
+	max-width: 100%;
+	box-sizing: border-box;
+}
+.u-pull-right {
+	float: right;
+}
+.u-pull-left {
+	float: left;
+}
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+hr {
+	margin-top: 3rem;
+	margin-bottom: 3.5rem;
+	border-width: 0;
+	border-top: 1px solid #ccc;
+}
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/*********** Navigation ***********/
+
+nav {
+	position: fixed;
+	top: -500px;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	background: #a00000;
+	padding: 500px 0 5px;
+	-webkit-transform: skewY(-5deg);
+	-moz-transform: skewY(-5deg);
+	-o-transform: skewY(-5deg);
+	transform: skewY(-5deg);
+}
+
+nav a,
+nav a:hover {
+	border: 0;
+	text-decoration: none;
+	text-shadow: none;
+	background-image: none;
+}
+
+nav h1 {
+	position: fixed;
+	top: 495px;
+	left: 70px;
+	line-height: 1;
+	margin: 0;
+	z-index: 110;
+}
+
+nav h1 a {
+	padding: 0;
+}
+
+nav h1 span {
+	position: absolute;
+	top: -500px;
+}
+
+/*Strip the ul of padding and list styling*/
+nav ul {
+	display: block;
+	list-style-type: none;
+	margin: 10px 0 0;
+	padding: 0;
+	position: static;
+	overflow: hidden;
+	max-height: 0;
+	-webkit-transition: max-height 0.2s linear;
+	-moz-transition: max-height 0.2s linear;
+	-o-transition: max-height 0.2s linear;
+	transition: max-height 0.2s linear;
+}
+
+/*Create a horizontal list with spacing*/
+nav li {
+	float: left;
+	margin: 0 0 3px;
+}
+
+/*Style for menu links*/
+nav li a {
+	display: block;
+	min-width: 140px;
+	height: 50px;
+	text-align: center;
+	font-size: 2rem;
+	line-height: 50px;
+	padding: 0;
+	color: #fff;
+	background: #5e0000;
+	-webkit-box-shadow: inset 0 0 0 0 #5e0000;
+	-moz-box-shadow: inset 0 0 0 0 #5e0000;
+	box-shadow: inset 0 0 0 0 #5e0000;
+	-webkit-transition:
+		background 0.5s,
+		color 0.2s,
+		box-shadow 0.3s;
+	-moz-transition:
+		background 0.5s,
+		color 0.2s,
+		box-shadow 0.3s;
+	-o-transition:
+		background 0.5s,
+		color 0.2s,
+		box-shadow 0.3s;
+	transition:
+		background 0.5s,
+		color 0.2s,
+		box-shadow 0.3s;
+}
+
+nav li:hover a {
+	background: #ffab00;
+	color: #222;
+}
+
+nav li a.active {
+	background: #5e0000;
+	color: #ffab00;
+}
+
+nav ul li,
+li a {
+	width: 100%;
+}
+
+/*Style 'show menu' label button and hide it by default*/
+nav .show-menu {
+	text-decoration: none;
+	color: #fff;
+	background: #a00000;
+	text-align: center;
+	padding: 10px 0;
+	width: 80px;
+	display: block;
+}
+
+/*Hide checkbox*/
+nav input[type='checkbox'] {
+	display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+nav input[type='checkbox']:checked ~ #menu {
+	max-height: 200px;
+}
+
+/*********** Nav Button ***********/
+
+#navbutton {
+	width: 30px;
+	height: 25px;
+	position: relative;
+	margin: 0 20px;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: 0.5s ease-in-out;
+	-moz-transition: 0.5s ease-in-out;
+	-o-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+	cursor: pointer;
+}
+
+#navbutton span {
+	display: block;
+	position: absolute;
+	height: 3px;
+	width: 100%;
+	background: #fff;
+	opacity: 1;
+	left: 0;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: 0.25s ease-in-out;
+	-moz-transition: 0.25s ease-in-out;
+	-o-transition: 0.25s ease-in-out;
+	transition: 0.25s ease-in-out;
+}
+
+#navbutton:hover span {
+	background: #ffab00;
+}
+
+#navbutton span:nth-child(1) {
+	top: 0px;
+}
+
+#navbutton span:nth-child(2) {
+	top: 10px;
+}
+
+#navbutton span:nth-child(3) {
+	top: 20px;
+}
+
+nav input[type='checkbox']:checked ~ .show-menu #navbutton span:nth-child(1) {
+	top: 10px;
+	-webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	transform: rotate(135deg);
+}
+
+nav input[type='checkbox']:checked ~ .show-menu #navbutton span:nth-child(2) {
+	opacity: 0;
+	left: -60px;
+}
+
+nav input[type='checkbox']:checked ~ .show-menu #navbutton span:nth-child(3) {
+	top: 10px;
+	-webkit-transform: rotate(-135deg);
+	-moz-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+}
+
+/*********** Content ***********/
+
+main .container:nth-of-type(1) {
+	padding-top: 100px;
+	margin-top: -50px;
+	background: #e8e8e8;
+}
+
+main .container:nth-of-type(1) > .row {
+	padding: 50px 0;
+}
+
+main .container:nth-of-type(1) > .row > .column {
+	padding: 0;
+}
+
+.imagespacer {
+	margin-top: -20px;
+	margin-bottom: 35px;
+	height: 30vh;
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	background-image: url('/img/film/clapper.jpg');
+	background-image: -webkit-image-set(
+		url('/img/film/clapper.webp')
+			1x
+	);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.imagespacer.inbetween {
+	margin-top: 0;
+}
+
+.imagespacer::before {
+	content: ' ';
+	width: 105%;
+	height: 9vw;
+	display: block;
+	-webkit-transform: skewY(5deg);
+	-moz-transform: skewY(5deg);
+	-o-transform: skewY(5deg);
+	transform: skewY(5deg);
+	background: #e8e8e8;
+	-webkit-transform-origin: top left;
+	-ms-transform-origin: top left;
+	transform-origin: top left;
+	position: absolute;
+	left: 0;
+	top: -9vw;
+	z-index: 1;
+}
+
+.imagespacer.inbetween::before {
+	background: #fff;
+}
+
+.imagespacer::after {
+	content: ' ';
+	width: 105%;
+	height: 9vw;
+	display: block;
+	-webkit-transform: skewY(5deg);
+	-moz-transform: skewY(5deg);
+	-o-transform: skewY(5deg);
+	transform: skewY(5deg);
+	background: #fff;
+	-webkit-transform-origin: top right;
+	-ms-transform-origin: top right;
+	transform-origin: top right;
+	position: absolute;
+	right: 0;
+	bottom: -9vw;
+}
+
+.imagespacer.leo-profile {
+	background-image: url('/img/film/leo-side.jpg');
+	background-image: -webkit-image-set(
+		url('/img/film/leo-side.webp')
+			1x
+	);
+	background-position-y: 23%;
+}
+
+.imagespacer.mouse-pointer {
+	background-image: url('/img/software/mouse-pointer.jpg');
+	background-image: -webkit-image-set(
+		url('/img/software/mouse-pointer.webp')
+			1x
+	);
+}
+
+.imagespacer.gamestarter-banner {
+	background-image: url('/img/software/gamestarter-banner.jpg');
+	background-image: -webkit-image-set(
+		url('/img/software/gamestarter-banner.webp')
+			1x
+	);
+}
+
+.imagespacer.gamestarter-screens {
+	background-image: url('/img/software/gamestarter-screens.jpg');
+	background-image: -webkit-image-set(
+		url('/img/software/gamestarter-screens.webp')
+			1x
+	);
+}
+
+.imagespacer.camino-banner {
+	background-image: url('/img/software/camino-banner.jpg');
+	background-image: -webkit-image-set(
+		url('/img/software/camino-banner.webp')
+			1x
+	);
+}
+
+.imagespacer.macomfort-banner {
+	background-image: url('/img/software/macomfort-banner.jpg');
+	background-image: -webkit-image-set(
+		url('/img/software/macomfort-banner.webp')
+			1x
+	);
+}
+
+.imagespacer.web-code {
+	background-image: url('/img/web/website-source-code.jpg');
+	background-image: -webkit-image-set(
+		url('/img/web/website-source-code.webp')
+			1x
+	);
+}
+
+.imagespacer.mobile-web {
+	background-image: url('/img/web/mobile-responsive-website.jpg');
+	background-image: -webkit-image-set(
+		url('/img/web/mobile-responsive-website.webp')
+			1x
+	);
+}
+
+.videocontainer {
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+	margin: -20px auto 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding: 0;
+	height: 240px;
+}
+
+.videocontainer::before,
+.videocontainer::after {
+	content: ' ';
+	width: 105%;
+	height: 10vw;
+	display: block;
+	-webkit-transform: skewY(5deg);
+	-moz-transform: skewY(5deg);
+	-o-transform: skewY(5deg);
+	transform: skewY(5deg);
+	background: #fff;
+	-webkit-transform-origin: top left;
+	-ms-transform-origin: top left;
+	transform-origin: top left;
+	position: absolute;
+	left: 0;
+	top: -9vw;
+	z-index: 1;
+}
+
+.videocontainer.videospacer::before {
+	background: #e8e8e8;
+}
+
+.videocontainer::after {
+	-webkit-transform-origin: top right;
+	-ms-transform-origin: top right;
+	transform-origin: top right;
+	position: absolute;
+	right: 0;
+	bottom: -9vw;
+	top: auto;
+	left: auto;
+}
+
+.container > .row > .column {
+	padding: 25px 0;
+}
+
+p.laurel-line {
+	line-height: 56px;
+}
+
+p.laurel-line img {
+	padding: 0 1rem 0 0;
+	opacity: 0.8;
+	cursor: help;
+}
+
+.flex-images {
+	display: flex;
+}
+
+.flex-images a + a {
+	margin-left: 15px;
+}
+
+.flex-images img {
+	width: 100%;
+	height: auto;
+}
+
+.lightbox {
+	position: fixed;
+	top: -200%;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.8);
+	opacity: 0;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+	overflow: hidden;
+}
+
+.lightbox img {
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	max-width: 0%;
+	max-height: 0%;
+	width: auto;
+	height: auto;
+	box-sizing: border-box;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.lightbox:target {
+	outline: none;
+	opacity: 1;
+	top: 0;
+	bottom: 0;
+}
+
+.lightbox:target img {
+	max-width: 90%;
+	max-height: 80%;
+}
+
+a.lightbox:hover {
+	background-image: none;
+}
+
+.aspect-ratio {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+
+.aspect-ratio iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.win-banner {
+	width: 175px;
+	height: 24px;
+	font-size: 10px;
+	background: url('/img/software/macomfort/windows.png')
+		center left no-repeat;
+	padding: 2px 0 2px 37px;
+}
+
+.win-banner span {
+	color: #1eaedb;
+}
+
+.three.columns h5 {
+	margin-top: 1em;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	height: 150px;
+}
+
+footer div {
+	-webkit-transform: skewY(-5deg);
+	-moz-transform: skewY(-5deg);
+	-o-transform: skewY(-5deg);
+	transform: skewY(-5deg);
+	background: #2f3036;
+	position: absolute;
+	bottom: -935px;
+	width: 100%;
+	height: 1000px;
+}
+
+footer div p {
+	-webkit-transform: skewY(5deg);
+	-moz-transform: skewY(5deg);
+	-o-transform: skewY(5deg);
+	transform: skewY(5deg);
+	padding: 0 20px 10px;
+	text-align: right;
+	color: #fff;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+	text-shadow:
+		3px 0 #2f3036,
+		2px 0 #2f3036,
+		1px 0 #2f3036,
+		-1px 0 #2f3036,
+		-2px 0 #2f3036;
+}
+
+footer a:hover {
+	background-image: linear-gradient(#0fa0ce, #0fa0ce);
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://leonardo.re</loc>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://leonardo.re/web-design-development</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://leonardo.re/software-products</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://leonardo.re/macomfort</loc>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://leonardo.re/fpsc-x10-gamestarter</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://leonardo.re/camino-prefpanes</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>https://leonardo.re/contact</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://leonardo.re/legal</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://leonardo.re/colorget/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+</urlset>

@@ -1,0 +1,20 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Leonardo Re -- Design & Development
+
+# THANKS
+
+    Dave Gamache for creating Skeleton
+    Filament Group, Inc. for the loadCSS Polyfill
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    PHP 7.1
+    Skeleton
+    Apache Server Configs
+    Normalize.css
+    loadCSS Polyfill

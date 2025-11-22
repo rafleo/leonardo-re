@@ -1,0 +1,76 @@
+.imagespacer {
+	margin-top: -45px;
+	height: 25vw;
+}
+.imagespacer.leo-profile {
+	height: 35vw;
+	max-height: 70vh;
+}
+
+.show-menu,
+#navbutton {
+	display: none;
+}
+
+nav h1 {
+	top: 517px;
+	left: 30px;
+}
+
+nav ul {
+	margin: 0;
+	max-height: 100px;
+}
+
+nav ul li,
+li a {
+	width: auto;
+}
+
+nav li a {
+	font-size: 1.7rem;
+	padding: 0 2rem;
+	margin-right: 1rem;
+}
+
+nav li:hover a {
+	background: #5e0000;
+	color: #fff;
+	-webkit-box-shadow: inset 0 -3px 0 0 #ffab00;
+	-moz-box-shadow: inset 0 -3px 0 0 #ffab00;
+	box-shadow: inset 0 -3px 0 0 #ffab00;
+}
+
+nav li a.active {
+	background: #5e0000;
+	color: #ffab00;
+	-webkit-box-shadow: inset 0 -3px 0 0 #ffab00;
+	-moz-box-shadow: inset 0 -3px 0 0 #ffab00;
+	box-shadow: inset 0 -3px 0 0 #ffab00;
+}
+
+nav ul li:first-child {
+	margin-left: 130px;
+}
+
+main .container:nth-of-type(1) {
+	margin-top: 0;
+}
+
+.videocontainer {
+	height: auto;
+}
+
+.videocontainer video {
+	width: 100%;
+	height: auto;
+}
+
+.videospacer {
+	margin-top: -45px;
+	margin-bottom: -30px;
+}
+
+footer {
+	height: 250px;
+}
