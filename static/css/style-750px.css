@@ -1,9 +1,0 @@
-.three.columns {
-	width: 22%;
-	padding-bottom: 0;
-}
-
-.three.columns:last-child {
-	padding-bottom: 0;
-	margin-bottom: 0;
-}

@@ -75,7 +75,7 @@
 				<p>Some of the features include...</p>
 				<ul>
 					<li>
-						<strong>fully customizeable, individual and professional game launcher</strong> - match the
+						<strong>fully customizable, individual and professional game launcher</strong> - match the
 						launcher to the design of your game
 					</li>
 					<li>
@@ -96,7 +96,7 @@
 					</li>
 					<li>
 						<strong
-							>customizeable key layout (controls), joystick, sound control, performance,
+							>customizable key layout (controls), joystick, sound control, performance,
 							experimental, resolution and colour depth options</strong
 						> - provide your users with what they expect and need
 					</li>

@@ -129,7 +129,7 @@
 					/></a
 				>
 			</div>
-			<a href="#" class="lightbox" id="mc1" title="Click to close screenshot"
+			<a href="#top" class="lightbox" id="mc1" title="Click to close screenshot"
 				><img
 					src="/img/software/macomfort/macomfort-quicklook.jpg"
 					alt="maComfort - Quicklook function"
@@ -137,7 +137,7 @@
 					height="612"
 				/></a
 			>
-			<a href="#" class="lightbox" id="mc2" title="Click to close screenshot"
+			<a href="#top" class="lightbox" id="mc2" title="Click to close screenshot"
 				><img
 					src="/img/software/macomfort/macomfort-spaces.jpg"
 					alt="maComfort - Spaces settings"
@@ -145,7 +145,7 @@
 					height="580"
 				/></a
 			>
-			<a href="#" class="lightbox" id="mc3" title="Click to close screenshot"
+			<a href="#top" class="lightbox" id="mc3" title="Click to close screenshot"
 				><img
 					src="/img/software/macomfort/macomfort-keyboard.jpg"
 					alt="maComfort - keyboard settings"
@@ -230,7 +230,7 @@
 			</table>
 		</div>
 		<div class="one-half column">
-			<h4>&nbsp;</h4>
+			<h4><span class="sr-only">Additional Features</span></h4>
 			<table>
 				<tbody>
 					<tr>
@@ -337,31 +337,31 @@
 					/></a
 				>
 			</div>
-			<a href="#" class="lightbox" id="mc4" title="Click to close screenshot"
+			<a href="#top" class="lightbox" id="mc4" title="Click to close screenshot"
 				><img
 					src="/img/software/macomfort/macomfort-active-corners.jpg"
 					alt="maComfort - Active Corners function"
 					width="684"
 					height="580"
-				/></a
+					/></a
 			>
-			<a href="#" class="lightbox" id="mc5" title="Click to close screenshot"
+			<a href="#top" class="lightbox" id="mc5" title="Click to close screenshot"
 				><img
 					src="/img/software/macomfort/macomfort-key-combinations.jpg"
 					alt="maComfort - key combination settings"
 					width="684"
 					height="580"
-				/></a
+					/></a
 			>
-			<a href="#" class="lightbox" id="mc6" title="Click to close screenshot"
+			<a href="#top" class="lightbox" id="mc6" title="Click to close screenshot"
 				><img
 					src="/img/software/macomfort/macomfort-hotkeys-media.jpg"
 					alt="maComfort - hotkey settings"
 					width="684"
 					height="580"
-				/></a
+					/></a
 			>
-			<a href="#" class="lightbox" id="mc7" title="Click to close screenshot"
+			<a href="#top" class="lightbox" id="mc7" title="Click to close screenshot"
 				><img
 					src="/img/software/macomfort/macomfort-skins.jpg"
 					alt="maComfort - skinning settings"

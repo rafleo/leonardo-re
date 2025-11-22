@@ -53,19 +53,21 @@
 					>
 				</p>
 				<p>
-					<strong>Contact:</strong><!--sse--><br />Telephone:
+					<strong>Contact:</strong>
+					<br />Telephone:
 					<a
-						href="https://web.archive.org/web/20250714025857/tel:004915787510277"
+						href="tel:004915787510277"
 						itemprop="telephone"
 						title="Call me"
 						rel="noopener">+49 1578 7510277</a
-					><!--/sse--><br />Email:
+					>
+					<br />Email:
 					<a href="mailto:mail@leonardo.re" itemprop="email" title="Send me an email" rel="noopener"
 						>mail@leonardo.re</a
-					><span itemprop="url" content="https://leonardo.re"></span><span
-						itemprop="image"
-						content="https://leonardo.re/img/leonardo-re.jpg"
-					></span><span itemprop="sameAs" content="http://www.imdb.com/name/nm4906271/"></span>
+					>
+					<meta itemprop="url" content="https://leonardo.re" />
+					<meta itemprop="image" content="https://leonardo.re/img/leonardo-re.jpg" />
+					<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 				</p>
 			</div>
 		</div>
@@ -260,59 +262,17 @@
 						specific features or parts of this Website.
 					</p>
 					<p>
-						<strong>Strato (STRATO AG)</strong><br />
-						Strato is a hosting service provided by STRATO AG.
+						<strong>Variable Object Assignment (statichost.eu)</strong><br />
+						statichost.eu is a hosting service provided by Variable Object Assignment.
 					</p>
 					<p>
 						Personal Data collected:<br />various types of Data as specified in the privacy policy
 						of the service.
 					</p>
 					<p>
-						Place of processing:<br />Germany –
+						Place of processing:<br />Sweden –
 						<a
-							href="https://web.archive.org/web/20250714025857/https://www.strato.de/datenschutz/"
-							target="_blank"
-							rel="nofollow noopener">Privacy Policy</a
-						>
-					</p>
-				</div>
-			</div>
-
-			<div class="tab" role="presentation">
-				<input
-					id="tab-cloudinary"
-					type="checkbox"
-					name="tabs-cloudinary"
-					aria-controls="tab-content-cloudinary"
-				/>
-				<label for="tab-cloudinary" id="tab-cloudinary-label" role="heading" aria-level="6"
-					>Hosting and backend infrastructure</label
-				>
-				<div
-					class="tab-content tab-content-long"
-					id="tab-content-cloudinary"
-					role="region"
-					aria-labelledby="tab-cloudinary-label"
-				>
-					<p>
-						This type of service has the purpose of hosting Data and files that enable this Website
-						to run and be distributed as well as to provide a ready-made infrastructure to run
-						specific features or parts of this Website. Some of these services work through
-						geographically distributed servers, making it difficult to determine the actual location
-						where the Personal Data are stored.
-					</p>
-					<p>
-						<strong>Cloudinary (Cloudinary Ltd.)</strong><br />
-						Cloudinary is a hosting service provided by Cloudinary Ltd.
-					</p>
-					<p>
-						Personal Data collected:<br />various types of Data as specified in the privacy policy
-						of the service.
-					</p>
-					<p>
-						Place of processing:<br />Israel –
-						<a
-							href="https://web.archive.org/web/20250714025857/https://cloudinary.com/privacy"
+							href="https://www.statichost.eu/privacy/"
 							target="_blank"
 							rel="nofollow noopener">Privacy Policy</a
 						>
@@ -360,125 +320,7 @@
 					<p>
 						Place of processing:<br />United States –
 						<a
-							href="https://web.archive.org/web/20250714025857/https://www.cloudflare.com/security-policy/"
-							target="_blank"
-							rel="nofollow noopener">Privacy Policy</a
-						>
-					</p>
-				</div>
-			</div>
-
-			<div class="tab" role="presentation">
-				<input
-					id="tab-googleamp"
-					type="checkbox"
-					name="tabs-googleamp"
-					aria-controls="tab-content-googleamp"
-					data-enpassusermodified="yes"
-				/>
-				<label for="tab-googleamp" id="tab-googleamp-label" role="heading" aria-level="6"
-					>Mobile traffic optimization and distribution</label
-				>
-				<div
-					class="tab-content tab-content-long"
-					id="tab-content-googleamp"
-					role="region"
-					aria-labelledby="tab-googleamp-label"
-				>
-					<p>
-						This type of service allows this Website to distribute their content using servers
-						located across different countries and to optimize their performance especially for
-						Users on mobiles.<br />
-						Which Personal Data are processed depends on the characteristics and the way these services
-						are implemented. Their function is to filter communications between this Website and the
-						User’s browser.<br />
-						Considering the widespread distribution of this system, it is difficult to determine the
-						locations to which the contents that may contain Personal Information User are transferred.
-					</p>
-					<p>
-						<strong>Google AMP Cache (Google Ireland Limited)</strong><br />
-						Google AMP Cache is a traffic optimization and distribution service provided by Google Ireland
-						Limited.<br />
-						The way Google AMP Cache is integrated means that it filters all the traffic through this
-						Website, i.e., communication between this Website and the User’s browser, while also allowing
-						analytical data from this Website to be collected.
-					</p>
-					<p>
-						Personal Data collected:<br />Cookies and various types of Data as specified in the
-						privacy policy of the service.
-					</p>
-					<p>
-						Place of processing:<br />Ireland –
-						<a
-							href="https://web.archive.org/web/20250714025857/https://policies.google.com/privacy"
-							target="_blank"
-							rel="nofollow noopener">Privacy Policy</a
-						>.
-					</p>
-				</div>
-			</div>
-
-			<p>&nbsp;</p>
-
-			<h4>Further information about Personal Data</h4>
-			<p>&nbsp;</p>
-
-			<div class="tab" role="presentation">
-				<input
-					id="tab-selling-goods"
-					type="checkbox"
-					name="tabs-selling-goods"
-					aria-controls="tab-content-selling-goods"
-				/>
-				<label for="tab-selling-goods" id="tab-selling-goods-label" role="heading" aria-level="6"
-					>Selling goods and services online</label
-				>
-				<div
-					class="tab-content tab-content-long"
-					id="tab-content-selling-goods"
-					role="region"
-					aria-labelledby="tab-selling-goods-label"
-				>
-					<p>
-						The Personal Data collected are used to provide the User with services or to sell goods,
-						including payment and possible delivery.<br />
-					</p>
-					<p>
-						The Personal Data collected to complete the payment may include the credit card, the
-						bank account used for the transfer, or any other means of payment envisaged. The kind of
-						Data collected by this Website depends on the payment system used.
-					</p>
-				</div>
-			</div>
-
-			<div class="tab" role="presentation">
-				<input
-					id="tab-payments"
-					type="checkbox"
-					name="tabs-payments"
-					aria-controls="tab-content-payments"
-				/>
-				<label for="tab-payments" id="tab-payments-label" role="heading">Handling payments</label>
-				<div
-					class="tab-content tab-content-long"
-					id="tab-content-payments"
-					role="region"
-					aria-labelledby="tab-payments-label"
-				>
-					<p>
-						We use Paddle.com Market Limited (“Paddle”) as a payment processing service, which
-						allows Users to make online payments. When you make a purchase on leonardo.re, you
-						provide your data directly to Paddle, and your transaction is subject to Paddle’s
-						Privacy Policy.
-					</p>
-					<p>
-						Personal Data collected:<br />various types of Data as specified in the privacy policy
-						of the service.
-					</p>
-					<p>
-						Place of processing:<br />United States –
-						<a
-							href="https://web.archive.org/web/20250714025857/https://paddle.com/privacy"
+							href="https://www.cloudflare.com/security-policy/"
 							target="_blank"
 							rel="nofollow noopener">Privacy Policy</a
 						>
@@ -623,7 +465,7 @@
 		<div class="column">
 			<div class="tab" role="presentation">
 				<input id="tab-def" type="checkbox" name="tabs-def" aria-controls="tab-content-def" />
-				<label for="tab-def" id="tab-def-label" role="heading"
+				<label for="tab-def" id="tab-def-label"
 					>Definitions and legal references</label
 				>
 				<div

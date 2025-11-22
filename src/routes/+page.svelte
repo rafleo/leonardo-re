@@ -46,7 +46,6 @@
 	<video
 		width="960"
 		height="265"
-		layout="responsive"
 		muted
 		autoplay
 		loop
@@ -70,7 +69,7 @@
 <div class="container">
 	<div class="row">
 		<div class="two-thirds column">
-			<h4 itemprop="name">Leonardo Re</h4>
+			<h4>Leonardo Re</h4>
 			<p>
 				I love great sound and enjoy telling stories visually, so I aim to create immersive
 				audio-visual worlds.
@@ -136,7 +135,6 @@
 	<video
 		width="960"
 		height="265"
-		layout="responsive"
 		muted
 		autoplay
 		loop
@@ -159,10 +157,11 @@
 
 <div class="container">
 	<div class="row">
-		<div class="one-half column">
-			<h4>A Dinner to Remember</h4>
-			<p>Germany 2025, 47 min, 4K<br /><strong>Director, Producer</strong></p>
-			<p>
+		<div class="one-half column" itemscope itemtype="http://schema.org/Movie">
+			<h4 itemprop="name">A Dinner to Remember</h4>
+			<p><span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"><span itemprop="name">Germany</span></span> <span itemprop="dateCreated">2025</span>, <span itemprop="duration" content="PT47M">47 min</span>, 4K<br /><strong><span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Leonardo Re</span></span>, Producer</strong></p>
+			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+			<p itemprop="description">
 				Maike is now Mike. But the revelation of multiple explosive truths does not exactly render
 				this dinner with friends the ideal evening for coming out.
 			</p>
@@ -195,6 +194,9 @@
 					alt="Filmfest Bremen - Official Selection"
 					title="A Dinner to Remember is in the Official Selection of Filmfest Bremen 2025"
 				/>
+				<meta itemprop="award" content="'Best Comedy Film' at Cittador International Film Festival 2025" />
+				<meta itemprop="award" content="'Best Comedy Feature Film' at Berlin Kiez Film Festival 2025" />
+				<meta itemprop="award" content="'Official Selection' at Filmfest Bremen 2025" />
 			</p>
 			<div class="tab" role="presentation">
 				<input
@@ -220,24 +222,21 @@
 					</ul>
 				</div>
 			</div>
+			<meta itemprop="image" content="https://leonardo.re/img/film/poster-dinner.jpg" />
 		</div>
 		<div class="one-half column" itemscope itemtype="http://schema.org/Movie">
-			<h4 itemprop="name">Pornos gibt’s im Kiosk</h4>
+			<h4 itemprop="name">Pornos gibt's im Kiosk</h4>
 			<p>
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
-					><span itemprop="name" content="Germany">Germany</span></span
-				> <span itemprop="dateCreated" content="2018">2018</span>,
-				<span itemprop="duration" content="PT4M09">4 min</span>, 4K<br /><strong
+					><span itemprop="name">Germany</span></span
+				> <span itemprop="dateCreated">2018</span>,
+				<span itemprop="duration" content="PT4M09S">4 min</span>, 4K<br /><strong
 					><span itemprop="director" itemscope itemtype="http://schema.org/Person"
-						><span itemprop="name" content="Leonardo Re">Director</span><span
-							itemprop="sameAs"
-							content="https://www.imdb.com/name/nm4906271/"
-							tabindex="-1"
-							aria-hidden="true"
-						></span></span
+						><span itemprop="name">Leonardo Re</span></span
 					>, Producer</strong
 				>
 			</p>
+			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 			<p itemprop="description">A bookseller is challenged by an odd customer on a mission.</p>
 			<p class="laurel-line">
 				<img
@@ -261,12 +260,7 @@
 					alt="FilmFestSpezial Laurel"
 					title="Pornos gibt’s im Kiosk won the Jury Award from FilmFestSpezial"
 				/>
-				<span
-					itemprop="award"
-					content="Best Director at Landesfilmfestival Berlin/Brandenburg"
-					tabindex="-1"
-					aria-hidden="true"
-				></span>
+				<meta itemprop="award" content="Best Director at Landesfilmfestival Berlin/Brandenburg" />
 			</p>
 
 			<div class="tab" role="presentation">
@@ -295,18 +289,9 @@
 					</ul>
 				</div>
 			</div>
-			<span
-				itemprop="image"
-				content="https://leonardo.re/img/film/poster-pornos-gibts-im-kiosk.jpg"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
-			<span
-				itemprop="sameAs"
-				content="https://www.imdb.com/title/tt9278494/"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
+			<meta itemprop="image" content="https://leonardo.re/img/film/poster-pornos-gibts-im-kiosk.jpg" />
+			<meta itemprop="sameAs" content="https://www.imdb.com/title/tt9278494/" />
+			<meta itemprop="award" content="Best Director at Landesfilmfestival Berlin/Brandenburg" />
 		</div>
 	</div>
 </div>
@@ -317,19 +302,15 @@
 			<h4 itemprop="name">Incubo</h4>
 			<p>
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
-					><span itemprop="name" content="Germany">Germany</span></span
-				> <span itemprop="dateCreated" content="2018-02-24">2018</span>,
-				<span itemprop="duration" content="PT17M33">17:33</span>, 2K 2.35<br /><strong
+					><span itemprop="name">Germany</span></span
+				> <span itemprop="dateCreated">2018</span>,
+				<span itemprop="duration" content="PT17M33S">17:33</span>, 2K 2.35<br /><strong
 					><span itemprop="director" itemscope itemtype="http://schema.org/Person"
-						><span itemprop="name" content="Leonardo Re">Director</span><span
-							itemprop="sameAs"
-							content="https://www.imdb.com/name/nm4906271/"
-							tabindex="-1"
-							aria-hidden="true"
-						></span></span
+						><span itemprop="name">Leonardo Re</span></span
 					>, Producer</strong
 				>
 			</p>
+			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 			<p itemprop="description">
 				Germany 1945. Two siblings seek refuge in an uninhabited lodge but soon face weird
 				occurrences.
@@ -357,39 +338,24 @@
 					title="Incubo was Officially Selected for the Inshort Film Festival 2018"
 				/>
 			</p>
-			<span
-				itemprop="image"
-				content="https://leonardo.re/img/film/poster-incubo.jpg"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
-			<span itemprop="url" content="https://www.incubo-film.de/" tabindex="-1" aria-hidden="true"
-			></span>
-			<span
-				itemprop="sameAs"
-				content="https://www.imdb.com/title/tt6634580/"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
+			<meta itemprop="image" content="https://leonardo.re/img/film/poster-incubo.jpg" />
+			<meta itemprop="url" content="https://www.incubo-film.de/" />
+			<meta itemprop="sameAs" content="https://www.imdb.com/title/tt6634580/" />
 		</div>
 
 		<div class="one-half column" itemscope itemtype="http://schema.org/Movie">
 			<h4 itemprop="name">Gespräche mit Günter Gelb</h4>
 			<p>
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
-					><span itemprop="name" content="Germany">Germany</span></span
-				> <span itemprop="dateCreated" content="2016">2016</span>,
-				<span itemprop="duration" content="PT4M50">04:50</span>, PAL B/W 4:3<br /><strong
+					><span itemprop="name">Germany</span></span
+				> <span itemprop="dateCreated">2016</span>,
+				<span itemprop="duration" content="PT4M50S">04:50</span>, PAL B/W 4:3<br /><strong
 					><span itemprop="director" itemscope itemtype="http://schema.org/Person"
-						><span itemprop="name" content="Leonardo Re">Director</span><span
-							itemprop="sameAs"
-							content="https://www.imdb.com/name/nm4906271/"
-							tabindex="-1"
-							aria-hidden="true"
-						></span></span
+						><span itemprop="name">Leonardo Re</span></span
 					>, Producer</strong
 				>
 			</p>
+			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 			<p itemprop="description">
 				&ldquo;Conversations with Gunter Gelb&rdquo; is a homage to the German talk shows of the
 				1960s &ndash;&nbsp;with a pinch of modern communication skills.
@@ -455,18 +421,9 @@
 					</ul>
 				</div>
 			</div>
-			<span
-				itemprop="image"
-				content="https://leonardo.re/img/film/poster-gg.jpg"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
-			<span
-				itemprop="sameAs"
-				content="https://www.imdb.com/title/tt6091328/"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
+			<meta itemprop="image" content="https://leonardo.re/img/film/poster-gg.jpg" />
+			<meta itemprop="sameAs" content="https://www.imdb.com/title/tt6091328/" />
+			<meta itemprop="award" content="Audience Award at Filmfest Bremen 2016" />
 		</div>
 	</div>
 </div>
@@ -477,20 +434,16 @@
 			<h4 itemprop="name">Wasser</h4>
 			<p>
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
-					><span itemprop="name" content="GB">GB</span> /
-					<span itemprop="name" content="Germany">Germany</span></span
-				> <span itemprop="dateCreated" content="2014">2014</span>,
-				<span itemprop="duration" content="PT9M55">09:55</span>, HD 1080p 2.35<br /><strong
+					><span itemprop="name">GB</span> /
+					<span itemprop="name">Germany</span></span
+				> <span itemprop="dateCreated">2014</span>,
+				<span itemprop="duration" content="PT9M55S">09:55</span>, HD 1080p 2.35<br /><strong
 					><span itemprop="director" itemscope itemtype="http://schema.org/Person"
-						><span itemprop="name" content="Leonardo Re">Director</span><span
-							itemprop="sameAs"
-							content="https://www.imdb.com/name/nm4906271/"
-							tabindex="-1"
-							aria-hidden="true"
-						></span></span
+						><span itemprop="name">Leonardo Re</span></span
 					>, Producer</strong
 				>
 			</p>
+			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 			<p itemprop="description">An atmospheric drama about a man's apathy and his death.</p>
 			<p>
 				<a
@@ -511,7 +464,7 @@
 						width="75"
 						height="75"
 						alt="'Exceptionally Valuable' Badge"
-						title="Wasser was rated 'Exceptionally Valuable' by the German Film Rating Comission"
+						title="Wasser was rated 'Exceptionally Valuable' by the German Film Rating Commission"
 					/></a
 				>
 				<img
@@ -528,18 +481,8 @@
 					alt="VKRATZE Laurel"
 					title="Wasser won 3rd Place at VKRATZE 2016"
 				/>
-				<span
-					itemprop="award"
-					content="'Exceptionally Valuable' rating by the German Film Rating Comission"
-					tabindex="-1"
-					aria-hidden="true"
-				></span>
-				<span
-					itemprop="award"
-					content="Audience Award at 50th Young Collection"
-					tabindex="-1"
-					aria-hidden="true"
-				></span>
+				<meta itemprop="award" content="'Exceptionally Valuable' rating by the German Film Rating Commission" />
+				<meta itemprop="award" content="Audience Award at 50th Young Collection" />
 			</p>
 
 			<div class="tab" role="presentation">
@@ -582,43 +525,26 @@
 					</ul>
 				</div>
 			</div>
-			<span
-				itemprop="image"
-				content="https://leonardo.re/img/film/poster-wasser.jpg"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
-			<span
-				itemprop="url"
-				content="https://www.facebook.com/WasserFilm/"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
-			<span
-				itemprop="sameAs"
-				content="https://www.imdb.com/title/tt3056950/"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
+			<meta itemprop="image" content="https://leonardo.re/img/film/poster-wasser.jpg" />
+			<meta itemprop="url" content="https://www.facebook.com/WasserFilm/" />
+			<meta itemprop="sameAs" content="https://www.imdb.com/title/tt3056950/" />
+			<meta itemprop="award" content="'Exceptionally Valuable' rating by the German Film Rating Comission" />
+			<meta itemprop="award" content="Audience Award at 50th Young Collection" />
 		</div>
 
 		<div class="one-half column" itemscope itemtype="http://schema.org/Movie">
 			<h4 itemprop="name">Darwin Lynch</h4>
 			<p>
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
-					><span itemprop="name" content="Germany">Germany</span></span
-				> <span itemprop="dateCreated" content="2013">2011-2013</span>,
-				<span itemprop="duration" content="PT10M00">10 min</span>, HD 1080p<br /><strong
+					><span itemprop="name">Germany</span></span
+				> <span itemprop="dateCreated">2011-2013</span>,
+				<span itemprop="duration" content="PT10M">10 min</span>, HD 1080p<br /><strong
 					><span itemprop="director" itemscope itemtype="http://schema.org/Person"
-						><span itemprop="name" content="Leonardo Re">Director</span><span
-							itemprop="sameAs"
-							content="https://www.imdb.com/name/nm4906271/"
-							tabindex="-1"
-							aria-hidden="true"
-						></span></span
+						><span itemprop="name">Leonardo Re</span></span
 					>, Producer</strong
 				>
 			</p>
+			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 			<p itemprop="description">
 				Suicide is not for beginners.<br />Darwin learns it the hard way while trying to set an end
 				to his life in the coziness of a premium-class hotel room.
@@ -681,18 +607,8 @@
 					</ul>
 				</div>
 			</div>
-			<span
-				itemprop="image"
-				content="https://leonardo.re/img/film/poster-darwin-lynch.jpg"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
-			<span
-				itemprop="sameAs"
-				content="https://www.imdb.com/title/tt2246639/"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
+			<meta itemprop="image" content="https://leonardo.re/img/film/poster-darwin-lynch.jpg" />
+			<meta itemprop="sameAs" content="https://www.imdb.com/title/tt2246639/" />
 			<p></p>
 		</div>
 	</div>
@@ -704,19 +620,15 @@
 			<h4 itemprop="name">Jail</h4>
 			<p>
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
-					><span itemprop="name" content="GB">GB</span></span
-				> <span itemprop="dateCreated" content="2012">2012</span>,
-				<span itemprop="duration" content="PT5M59">05:59</span>, HD 1080p<br /><strong
+					><span itemprop="name">GB</span></span
+				> <span itemprop="dateCreated">2012</span>,
+				<span itemprop="duration" content="PT5M59S">05:59</span>, HD 1080p<br /><strong
 					><span itemprop="director" itemscope itemtype="http://schema.org/Person"
-						><span itemprop="name" content="Leonardo Re">Director</span><span
-							itemprop="sameAs"
-							content="https://www.imdb.com/name/nm4906271/"
-							tabindex="-1"
-							aria-hidden="true"
-						></span></span
+						><span itemprop="name">Leonardo Re</span></span
 					>, Producer</strong
 				>
 			</p>
+			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 			<p itemprop="description">
 				John goes to confront his father in an attempt to save their relationship.
 			</p>
@@ -729,52 +641,28 @@
 					title="Jail is in the Official Selection Phenom Film Fest 2012"
 				/>
 			</p>
-			<span
-				itemprop="image"
-				content="https://leonardo.re/img/film/poster-jail.jpg"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
-			<span
-				itemprop="sameAs"
-				content="https://www.imdb.com/title/tt2199912/"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
+			<meta itemprop="image" content="https://leonardo.re/img/film/poster-jail.jpg" />
+			<meta itemprop="sameAs" content="https://www.imdb.com/title/tt2199912/" />
 		</div>
 		<div class="one-half column" itemscope itemtype="http://schema.org/Movie">
 			<h4 itemprop="name">Endless Darkness</h4>
 			<p>
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
-					><span itemprop="name" content="Germany">Germany</span> /
-					<span itemprop="name" content="GB">GB</span></span
-				> <span itemprop="dateCreated" content="2012">2012</span>,
-				<span itemprop="duration" content="PT9M07">09:07</span>, HD 1080p<br /><strong
+					><span itemprop="name">Germany</span> /
+					<span itemprop="name">GB</span></span
+				> <span itemprop="dateCreated">2012</span>,
+				<span itemprop="duration" content="PT9M07S">09:07</span>, HD 1080p<br /><strong
 					><span itemprop="director" itemscope itemtype="http://schema.org/Person"
-						><span itemprop="name" content="Leonardo Re">Director</span><span
-							itemprop="sameAs"
-							content="https://www.imdb.com/name/nm4906271/"
-							tabindex="-1"
-							aria-hidden="true"
-						></span></span
+						><span itemprop="name">Leonardo Re</span></span
 					>, Producer, Editor</strong
 				>
 			</p>
+			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 			<p itemprop="description">
 				An attempt to visualize depression and the various emotions connected to it.
 			</p>
-			<span
-				itemprop="image"
-				content="https://leonardo.re/img/film/poster-endless-darkness.jpg"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
-			<span
-				itemprop="sameAs"
-				content="https://www.imdb.com/title/tt2616814/"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
+			<meta itemprop="image" content="https://leonardo.re/img/film/poster-endless-darkness.jpg" />
+			<meta itemprop="sameAs" content="https://www.imdb.com/title/tt2616814/" />
 		</div>
 	</div>
 </div>
@@ -785,68 +673,40 @@
 			<h4 itemprop="name">Autsch!</h4>
 			<p>
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
-					><span itemprop="name" content="Germany">Germany</span></span
-				> <span itemprop="dateCreated" content="2015">2011-2015</span>,
-				<span itemprop="duration" content="PT28M57">28:57</span>, HD 1080p<br /><strong
+					><span itemprop="name">Germany</span></span
+				> <span itemprop="dateCreated">2011-2015</span>,
+				<span itemprop="duration" content="PT28M57S">28:57</span>, HD 1080p<br /><strong
 					><span itemprop="director" itemscope itemtype="http://schema.org/Person"
-						><span itemprop="name" content="Leonardo Re">Director</span><span
-							itemprop="sameAs"
-							content="https://www.imdb.com/name/nm4906271/"
-							tabindex="-1"
-							aria-hidden="true"
-						></span></span
+						><span itemprop="name">Leonardo Re</span></span
 					>, Producer, Editor</strong
 				>
 			</p>
+			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 			<p itemprop="description">
 				&ldquo;Ouch! - A bank robbery like no other&rdquo; is the story of an unlucky fellow who
 				eventually robs a bank.
 			</p>
-			<span
-				itemprop="image"
-				content="https://leonardo.re/img/film/poster-autsch.jpg"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
-			<span
-				itemprop="sameAs"
-				content="https://www.imdb.com/title/tt4424014/"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
+			<meta itemprop="image" content="https://leonardo.re/img/film/poster-autsch.jpg" />
+			<meta itemprop="sameAs" content="https://www.imdb.com/title/tt4424014/" />
 		</div>
 		<div class="one-half column" itemscope itemtype="http://schema.org/Movie">
 			<h4 itemprop="name">Dog's Life</h4>
 			<p>
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
-					><span itemprop="name" content="Germany">Germany</span><span
-						itemprop="sameAs"
-						content="https://www.imdb.com/name/nm4906271/"
-						tabindex="-1"
-						aria-hidden="true"
-					></span></span
-				> <span itemprop="dateCreated" content="2010">2010</span>,
-				<span itemprop="duration" content="PT2M00">02:00</span>, Super-8 18fps<br /><strong
+					><span itemprop="name">Germany</span></span
+				> <span itemprop="dateCreated">2010</span>,
+				<span itemprop="duration" content="PT2M">02:00</span>, Super-8 18fps<br /><strong
 					><span itemprop="director" itemscope itemtype="http://schema.org/Person"
-						><span itemprop="name" content="Leonardo Re">Director</span></span
+						><span itemprop="name">Leonardo Re</span></span
 					></strong
 				>
 			</p>
+			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 			<p itemprop="description">
 				Experimental DocuFiction.<br />Music improvised (live) on first screening.
 			</p>
-			<span
-				itemprop="image"
-				content="https://leonardo.re/img/film/poster-dogs-life.jpg"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
-			<span
-				itemprop="sameAs"
-				content="https://www.imdb.com/title/tt2321265/"
-				tabindex="-1"
-				aria-hidden="true"
-			></span>
+			<meta itemprop="image" content="https://leonardo.re/img/film/poster-dogs-life.jpg" />
+			<meta itemprop="sameAs" content="https://www.imdb.com/title/tt2321265/" />
 		</div>
 	</div>
 </div>

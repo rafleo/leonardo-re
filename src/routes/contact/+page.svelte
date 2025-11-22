@@ -57,16 +57,17 @@
 					>
 				</p>
 				<p>
-					<strong>Contact:</strong><!--sse--><br />Telephone:
+					<strong>Contact:</strong>
+					<br />Telephone:
 					<a href="tel:004915787510277" itemprop="telephone" title="Call me" rel="noopener"
 						>+49 1578 7510277</a
-					><!--/sse--><br />Email:
+					><br />Email:
 					<a href="mailto:mail@leonardo.re" itemprop="email" title="Send me an email" rel="noopener"
 						>mail@leonardo.re</a
-					><span itemprop="url" content="https://leonardo.re"></span><span
-						itemprop="image"
-						content="https://leonardo.re/img/leonardo-re.jpg"
-					></span><span itemprop="sameAs" content="http://www.imdb.com/name/nm4906271/"></span>
+					>
+					<meta itemprop="url" content="https://leonardo.re" />
+					<meta itemprop="image" content="https://leonardo.re/img/leonardo-re.jpg" />
+					<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 				</p>
 			</div>
 		</div>
