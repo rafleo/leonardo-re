@@ -43,14 +43,7 @@
 </div>
 
 <div class="videocontainer videospacer">
-	<video
-		width="960"
-		height="265"
-		muted
-		autoplay
-		loop
-		poster="/vid/film-leo-still.jpg"
-	>
+	<video width="960" height="265" muted autoplay loop poster="/vid/film-leo-still.jpg">
 		<source
 			src="https://res.cloudinary.com/leonardo-re/video/upload/s--LLWSgfJD--/ac_none,q_auto/v1540646764/vid/film-leo.mp4"
 			type="video/mp4"
@@ -132,14 +125,7 @@
 </div>
 
 <div class="videocontainer">
-	<video
-		width="960"
-		height="265"
-		muted
-		autoplay
-		loop
-		poster="/vid/film-teaser-still.jpg"
-	>
+	<video width="960" height="265" muted autoplay loop poster="/vid/film-teaser-still.jpg">
 		<source
 			src="https://res.cloudinary.com/leonardo-re/video/upload/s--Q9vcXupO--/ac_none,q_auto:best/v1566146894/vid/film-teaser-roll.mp4"
 			type="video/mp4"
@@ -159,13 +145,16 @@
 	<div class="row">
 		<div class="one-half column" itemscope itemtype="http://schema.org/Movie">
 			<h4 itemprop="name">A Dinner to Remember</h4>
-			<p><span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"><span itemprop="name">Germany</span></span> <span itemprop="dateCreated">2025</span>, 47 min, 4K<br />
+			<p>
+				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
+					><span itemprop="name">Germany</span></span
+				> <span itemprop="dateCreated">2025</span>, 47 min, 4K<br />
 				<strong>
 					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 						Director
-					</span>, 
+					</span>,
 					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
@@ -208,8 +197,14 @@
 					alt="Filmfest Bremen - Official Selection"
 					title="A Dinner to Remember is in the Official Selection of Filmfest Bremen 2025"
 				/>
-				<meta itemprop="award" content="'Best Comedy Film' at Cittador International Film Festival 2025" />
-				<meta itemprop="award" content="'Best Comedy Feature Film' at Berlin Kiez Film Festival 2025" />
+				<meta
+					itemprop="award"
+					content="'Best Comedy Film' at Cittador International Film Festival 2025"
+				/>
+				<meta
+					itemprop="award"
+					content="'Best Comedy Feature Film' at Berlin Kiez Film Festival 2025"
+				/>
 				<meta itemprop="award" content="'Official Selection' at Filmfest Bremen 2025" />
 			</p>
 			<div class="tab" role="presentation">
@@ -243,14 +238,13 @@
 			<p>
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
 					><span itemprop="name">Germany</span></span
-				> <span itemprop="dateCreated">2018</span>,
-				4 min, 4K<br />
+				> <span itemprop="dateCreated">2018</span>, 4 min, 4K<br />
 				<strong>
 					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 						Director
-					</span>, 
+					</span>,
 					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
@@ -312,7 +306,10 @@
 					</ul>
 				</div>
 			</div>
-			<meta itemprop="image" content="https://leonardo.re/img/film/poster-pornos-gibts-im-kiosk.jpg" />
+			<meta
+				itemprop="image"
+				content="https://leonardo.re/img/film/poster-pornos-gibts-im-kiosk.jpg"
+			/>
 			<meta itemprop="sameAs" content="https://www.imdb.com/title/tt9278494/" />
 			<meta itemprop="award" content="Best Director at Landesfilmfestival Berlin/Brandenburg" />
 		</div>
@@ -326,14 +323,13 @@
 			<p>
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
 					><span itemprop="name">Germany</span></span
-				> <span itemprop="dateCreated">2018</span>,
-				18 min, 2K 2.35<br />
+				> <span itemprop="dateCreated">2018</span>, 18 min, 2K 2.35<br />
 				<strong>
 					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 						Director
-					</span>, 
+					</span>,
 					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
@@ -380,14 +376,13 @@
 			<p>
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
 					><span itemprop="name">Germany</span></span
-				> <span itemprop="dateCreated">2016</span>,
-				5 min, PAL B/W 4:3<br />
+				> <span itemprop="dateCreated">2016</span>, 5 min, PAL B/W 4:3<br />
 				<strong>
 					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 						Director
-					</span>, 
+					</span>,
 					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
@@ -472,14 +467,13 @@
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
 					><span itemprop="name">GB</span> /
 					<span itemprop="name">Germany</span></span
-				> <span itemprop="dateCreated">2014</span>,
-				10 min, HD 1080p 2.35<br />
+				> <span itemprop="dateCreated">2014</span>, 10 min, HD 1080p 2.35<br />
 				<strong>
 					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 						Director
-					</span>, 
+					</span>,
 					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
@@ -526,7 +520,10 @@
 					alt="VKRATZE Laurel"
 					title="Wasser won 3rd Place at VKRATZE 2016"
 				/>
-				<meta itemprop="award" content="'Exceptionally Valuable' rating by the German Film Rating Commission" />
+				<meta
+					itemprop="award"
+					content="'Exceptionally Valuable' rating by the German Film Rating Commission"
+				/>
 				<meta itemprop="award" content="Audience Award at 50th Young Collection" />
 			</p>
 
@@ -573,7 +570,10 @@
 			<meta itemprop="image" content="https://leonardo.re/img/film/poster-wasser.jpg" />
 			<meta itemprop="url" content="https://www.facebook.com/WasserFilm/" />
 			<meta itemprop="sameAs" content="https://www.imdb.com/title/tt3056950/" />
-			<meta itemprop="award" content="'Exceptionally Valuable' rating by the German Film Rating Comission" />
+			<meta
+				itemprop="award"
+				content="'Exceptionally Valuable' rating by the German Film Rating Comission"
+			/>
 			<meta itemprop="award" content="Audience Award at 50th Young Collection" />
 		</div>
 
@@ -582,14 +582,13 @@
 			<p>
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
 					><span itemprop="name">Germany</span></span
-				> <span itemprop="dateCreated">2011-2013</span>,
-				10 min, HD 1080p<br />
+				> <span itemprop="dateCreated">2011-2013</span>, 10 min, HD 1080p<br />
 				<strong>
 					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 						Director
-					</span>, 
+					</span>,
 					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
@@ -675,14 +674,13 @@
 			<p>
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
 					><span itemprop="name">GB</span></span
-				> <span itemprop="dateCreated">2012</span>,
-				6 min, HD 1080p<br />
+				> <span itemprop="dateCreated">2012</span>, 6 min, HD 1080p<br />
 				<strong>
 					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 						Director
-					</span>, 
+					</span>,
 					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
@@ -713,20 +711,18 @@
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
 					><span itemprop="name">Germany</span> /
 					<span itemprop="name">GB</span></span
-				> <span itemprop="dateCreated">2012</span>,
-				9 min, HD 1080p<br />
+				> <span itemprop="dateCreated">2012</span>, 9 min, HD 1080p<br />
 				<strong>
 					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 						Director
-					</span>, 
+					</span>,
 					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 						Producer
-					</span>,
-					Editor
+					</span>, Editor
 				</strong>
 			</p>
 			<meta itemprop="duration" content="PT9M07" />
@@ -747,20 +743,18 @@
 			<p>
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
 					><span itemprop="name">Germany</span></span
-				> <span itemprop="dateCreated">2011-2015</span>,
-				29 min, HD 1080p<br />
+				> <span itemprop="dateCreated">2011-2015</span>, 29 min, HD 1080p<br />
 				<strong>
 					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 						Director
-					</span>, 
+					</span>,
 					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 						Producer
-					</span>,
-					Editor
+					</span>, Editor
 				</strong>
 			</p>
 			<meta itemprop="duration" content="PT28M57" />
@@ -777,14 +771,13 @@
 			<p>
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
 					><span itemprop="name">Germany</span></span
-				> <span itemprop="dateCreated">2010</span>,
-				2 min, Super-8 18fps<br />
+				> <span itemprop="dateCreated">2010</span>, 2 min, Super-8 18fps<br />
 				<strong>
 					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 						Director
-					</span>, 
+					</span>,
 					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
 						<meta itemprop="name" content="Leonardo Re" />
 						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />

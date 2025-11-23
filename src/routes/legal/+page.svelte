@@ -45,21 +45,17 @@
 					<br />
 					<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"
 						><span itemprop="streetAddress">Bellermannstr. 93</span><br />
-					<meta itemprop="addressCountry" content="DE" />
-						D-<span itemprop="postalCode"
-							>13357</span
-						> <span itemprop="addressLocality">Berlin</span><br />
+						<meta itemprop="addressCountry" content="DE" />
+						D-<span itemprop="postalCode">13357</span>
+						<span itemprop="addressLocality">Berlin</span><br />
 						Germany</span
 					>
 				</p>
 				<p>
 					<strong>Contact:</strong>
 					<br />Telephone:
-					<a
-						href="tel:004915787510277"
-						itemprop="telephone"
-						title="Call me"
-						rel="noopener">+49 1578 7510277</a
+					<a href="tel:004915787510277" itemprop="telephone" title="Call me" rel="noopener"
+						>+49 1578 7510277</a
 					>
 					<br />Email:
 					<a href="mailto:mail@leonardo.re" itemprop="email" title="Send me an email" rel="noopener"
@@ -271,10 +267,8 @@
 					</p>
 					<p>
 						Place of processing:<br />Sweden –
-						<a
-							href="https://www.statichost.eu/privacy/"
-							target="_blank"
-							rel="nofollow noopener">Privacy Policy</a
+						<a href="https://www.statichost.eu/privacy/" target="_blank" rel="nofollow noopener"
+							>Privacy Policy</a
 						>
 					</p>
 				</div>
@@ -465,9 +459,7 @@
 		<div class="column">
 			<div class="tab" role="presentation">
 				<input id="tab-def" type="checkbox" name="tabs-def" aria-controls="tab-content-def" />
-				<label for="tab-def" id="tab-def-label"
-					>Definitions and legal references</label
-				>
+				<label for="tab-def" id="tab-def-label">Definitions and legal references</label>
 				<div
 					class="tab-content tab-content-long"
 					id="tab-content-def"

@@ -343,7 +343,7 @@
 					alt="maComfort - Active Corners function"
 					width="684"
 					height="580"
-					/></a
+				/></a
 			>
 			<a href="#top" class="lightbox" id="mc5" title="Click to close screenshot"
 				><img
@@ -351,7 +351,7 @@
 					alt="maComfort - key combination settings"
 					width="684"
 					height="580"
-					/></a
+				/></a
 			>
 			<a href="#top" class="lightbox" id="mc6" title="Click to close screenshot"
 				><img
@@ -359,7 +359,7 @@
 					alt="maComfort - hotkey settings"
 					width="684"
 					height="580"
-					/></a
+				/></a
 			>
 			<a href="#top" class="lightbox" id="mc7" title="Click to close screenshot"
 				><img

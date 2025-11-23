@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { page } from "$app/state";
+	import { page } from '$app/state';
 </script>
 
 <nav>
@@ -13,19 +13,15 @@
 	</label>
 	<h1>
 		<a href="/" title="Home Page"
-			><img
-				src="/img/re-logo.svg"
-				alt="Re Logo"
-				title="Leonardo Re"
-				width="71"
-				height="59"
-			/></a
+			><img src="/img/re-logo.svg" alt="Re Logo" title="Leonardo Re" width="71" height="59" /></a
 		><span>Leonardo Re</span>
 	</h1>
 	<ul id="menu">
 		<li>
-			<a href="/" title="Film Director and Producer" class={page.url.pathname === '/' ? 'active' : ''}
-				>Film Director and Producer</a
+			<a
+				href="/"
+				title="Film Director and Producer"
+				class={page.url.pathname === '/' ? 'active' : ''}>Film Director and Producer</a
 			>
 		</li>
 		<li>

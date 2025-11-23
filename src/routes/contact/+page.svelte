@@ -47,10 +47,12 @@
 					<strong itemprop="name">Leonardo Re</strong>
 					<meta itemprop="jobTitle" content="Film Director" /><br />
 					<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"
-						><span itemprop="streetAddress">Bellermannstr. 93</span><br /><meta itemprop="addressCountry" content="DE" />
-						D-<span itemprop="postalCode"
-							>13357</span
-						> <span itemprop="addressLocality">Berlin</span><br />
+						><span itemprop="streetAddress">Bellermannstr. 93</span><br /><meta
+							itemprop="addressCountry"
+							content="DE"
+						/>
+						D-<span itemprop="postalCode">13357</span>
+						<span itemprop="addressLocality">Berlin</span><br />
 						Germany</span
 					>
 				</p>
