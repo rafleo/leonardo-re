@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Subcontractors • Leonardo Re</title>
+	<title>Subcontractors &#8251; Leonardo Re</title>
 	<meta name="description" content="Leonardo Re's Subcontractors" />
 	<meta property="og:title" content="Leonardo Re's Subcontractors" />
 	<meta property="og:description" content="Leonardo Re's Subcontractors" />

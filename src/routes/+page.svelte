@@ -159,8 +159,22 @@
 	<div class="row">
 		<div class="one-half column" itemscope itemtype="http://schema.org/Movie">
 			<h4 itemprop="name">A Dinner to Remember</h4>
-			<p><span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"><span itemprop="name">Germany</span></span> <span itemprop="dateCreated">2025</span>, <span itemprop="duration" content="PT47M">47 min</span>, 4K<br /><strong><span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Leonardo Re</span></span>, Producer</strong></p>
-			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+			<p><span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"><span itemprop="name">Germany</span></span> <span itemprop="dateCreated">2025</span>, 47 min, 4K<br />
+				<strong>
+					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Director
+					</span>, 
+					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Producer
+					</span>
+				</strong>
+			</p>
+			<meta itemprop="duration" content="PT47M33" />
+			<meta itemprop="sameAs" content="https://www.imdb.com/title/tt14510804/" />
 			<p itemprop="description">
 				Maike is now Mike. But the revelation of multiple explosive truths does not exactly render
 				this dinner with friends the ideal evening for coming out.
@@ -225,17 +239,26 @@
 			<meta itemprop="image" content="https://leonardo.re/img/film/poster-dinner.jpg" />
 		</div>
 		<div class="one-half column" itemscope itemtype="http://schema.org/Movie">
-			<h4 itemprop="name">Pornos gibt's im Kiosk</h4>
+			<h4 itemprop="name">Pornos gibt’s im Kiosk</h4>
 			<p>
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
 					><span itemprop="name">Germany</span></span
 				> <span itemprop="dateCreated">2018</span>,
-				<span itemprop="duration" content="PT4M09S">4 min</span>, 4K<br /><strong
-					><span itemprop="director" itemscope itemtype="http://schema.org/Person"
-						><span itemprop="name">Leonardo Re</span></span
-					>, Producer</strong
-				>
+				4 min, 4K<br />
+				<strong>
+					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Director
+					</span>, 
+					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Producer
+					</span>
+				</strong>
 			</p>
+			<meta itemprop="duration" content="PT4M09" />
 			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 			<p itemprop="description">A bookseller is challenged by an odd customer on a mission.</p>
 			<p class="laurel-line">
@@ -304,12 +327,21 @@
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
 					><span itemprop="name">Germany</span></span
 				> <span itemprop="dateCreated">2018</span>,
-				<span itemprop="duration" content="PT17M33S">17:33</span>, 2K 2.35<br /><strong
-					><span itemprop="director" itemscope itemtype="http://schema.org/Person"
-						><span itemprop="name">Leonardo Re</span></span
-					>, Producer</strong
-				>
+				18 min, 2K 2.35<br />
+				<strong>
+					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Director
+					</span>, 
+					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Producer
+					</span>
+				</strong>
 			</p>
+			<meta itemprop="duration" content="PT17M33" />
 			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 			<p itemprop="description">
 				Germany 1945. Two siblings seek refuge in an uninhabited lodge but soon face weird
@@ -349,12 +381,21 @@
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
 					><span itemprop="name">Germany</span></span
 				> <span itemprop="dateCreated">2016</span>,
-				<span itemprop="duration" content="PT4M50S">04:50</span>, PAL B/W 4:3<br /><strong
-					><span itemprop="director" itemscope itemtype="http://schema.org/Person"
-						><span itemprop="name">Leonardo Re</span></span
-					>, Producer</strong
-				>
+				5 min, PAL B/W 4:3<br />
+				<strong>
+					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Director
+					</span>, 
+					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Producer
+					</span>
+				</strong>
 			</p>
+			<meta itemprop="duration" content="PT4M50" />
 			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 			<p itemprop="description">
 				&ldquo;Conversations with Gunter Gelb&rdquo; is a homage to the German talk shows of the
@@ -391,12 +432,7 @@
 					alt="up-and-coming Film Award Laurel"
 					title="Gespräche mit Günter Gelb was nominated at the up-and-coming Film Award 2017"
 				/>
-				<span
-					itemprop="award"
-					content="Audience Award at Filmfest Bremen 2016"
-					tabindex="-1"
-					aria-hidden="true"
-				></span>
+				<meta itemprop="award" content="Audience Award at Filmfest Bremen 2016" />
 			</p>
 
 			<div class="tab" role="presentation">
@@ -437,12 +473,21 @@
 					><span itemprop="name">GB</span> /
 					<span itemprop="name">Germany</span></span
 				> <span itemprop="dateCreated">2014</span>,
-				<span itemprop="duration" content="PT9M55S">09:55</span>, HD 1080p 2.35<br /><strong
-					><span itemprop="director" itemscope itemtype="http://schema.org/Person"
-						><span itemprop="name">Leonardo Re</span></span
-					>, Producer</strong
-				>
+				10 min, HD 1080p 2.35<br />
+				<strong>
+					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Director
+					</span>, 
+					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Producer
+					</span>
+				</strong>
 			</p>
+			<meta itemprop="duration" content="PT9M55" />
 			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 			<p itemprop="description">An atmospheric drama about a man's apathy and his death.</p>
 			<p>
@@ -538,12 +583,21 @@
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
 					><span itemprop="name">Germany</span></span
 				> <span itemprop="dateCreated">2011-2013</span>,
-				<span itemprop="duration" content="PT10M">10 min</span>, HD 1080p<br /><strong
-					><span itemprop="director" itemscope itemtype="http://schema.org/Person"
-						><span itemprop="name">Leonardo Re</span></span
-					>, Producer</strong
-				>
+				10 min, HD 1080p<br />
+				<strong>
+					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Director
+					</span>, 
+					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Producer
+					</span>
+				</strong>
 			</p>
+			<meta itemprop="duration" content="PT10M" />
 			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 			<p itemprop="description">
 				Suicide is not for beginners.<br />Darwin learns it the hard way while trying to set an end
@@ -622,12 +676,21 @@
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
 					><span itemprop="name">GB</span></span
 				> <span itemprop="dateCreated">2012</span>,
-				<span itemprop="duration" content="PT5M59S">05:59</span>, HD 1080p<br /><strong
-					><span itemprop="director" itemscope itemtype="http://schema.org/Person"
-						><span itemprop="name">Leonardo Re</span></span
-					>, Producer</strong
-				>
+				6 min, HD 1080p<br />
+				<strong>
+					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Director
+					</span>, 
+					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Producer
+					</span>
+				</strong>
 			</p>
+			<meta itemprop="duration" content="PT5M59" />
 			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 			<p itemprop="description">
 				John goes to confront his father in an attempt to save their relationship.
@@ -651,12 +714,22 @@
 					><span itemprop="name">Germany</span> /
 					<span itemprop="name">GB</span></span
 				> <span itemprop="dateCreated">2012</span>,
-				<span itemprop="duration" content="PT9M07S">09:07</span>, HD 1080p<br /><strong
-					><span itemprop="director" itemscope itemtype="http://schema.org/Person"
-						><span itemprop="name">Leonardo Re</span></span
-					>, Producer, Editor</strong
-				>
+				9 min, HD 1080p<br />
+				<strong>
+					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Director
+					</span>, 
+					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Producer
+					</span>,
+					Editor
+				</strong>
 			</p>
+			<meta itemprop="duration" content="PT9M07" />
 			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 			<p itemprop="description">
 				An attempt to visualize depression and the various emotions connected to it.
@@ -675,12 +748,22 @@
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
 					><span itemprop="name">Germany</span></span
 				> <span itemprop="dateCreated">2011-2015</span>,
-				<span itemprop="duration" content="PT28M57S">28:57</span>, HD 1080p<br /><strong
-					><span itemprop="director" itemscope itemtype="http://schema.org/Person"
-						><span itemprop="name">Leonardo Re</span></span
-					>, Producer, Editor</strong
-				>
+				29 min, HD 1080p<br />
+				<strong>
+					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Director
+					</span>, 
+					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Producer
+					</span>,
+					Editor
+				</strong>
 			</p>
+			<meta itemprop="duration" content="PT28M57" />
 			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 			<p itemprop="description">
 				&ldquo;Ouch! - A bank robbery like no other&rdquo; is the story of an unlucky fellow who
@@ -695,12 +778,21 @@
 				<span itemprop="countryOfOrigin" itemscope itemtype="http://schema.org/Country"
 					><span itemprop="name">Germany</span></span
 				> <span itemprop="dateCreated">2010</span>,
-				<span itemprop="duration" content="PT2M">02:00</span>, Super-8 18fps<br /><strong
-					><span itemprop="director" itemscope itemtype="http://schema.org/Person"
-						><span itemprop="name">Leonardo Re</span></span
-					></strong
-				>
+				2 min, Super-8 18fps<br />
+				<strong>
+					<span itemprop="director" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Director
+					</span>, 
+					<span itemprop="producer" itemscope itemtype="http://schema.org/Person">
+						<meta itemprop="name" content="Leonardo Re" />
+						<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
+						Producer
+					</span>
+				</strong>
 			</p>
+			<meta itemprop="duration" content="PT2M" />
 			<meta itemprop="sameAs" content="https://www.imdb.com/name/nm4906271/" />
 			<p itemprop="description">
 				Experimental DocuFiction.<br />Music improvised (live) on first screening.

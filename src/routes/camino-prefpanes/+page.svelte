@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Camino preference panes • Leonardo Re</title>
+	<title>Camino preference panes &#8251; Leonardo Re</title>
 	<meta
 		name="description"
 		content="Discontinued Camino preference panes CamiNoScript and Settings Plus."

@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>GameStarter • Leonardo Re</title>
+	<title>GameStarter &#8251; Leonardo Re</title>
 	<meta
 		name="description"
 		content="GameStarter lets you create launchers for your FPS Creator, FPS Creator X10 and DarkBasic (Pro) games."

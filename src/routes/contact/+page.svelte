@@ -44,13 +44,11 @@
 			</p>
 			<div itemscope itemtype="http://schema.org/Person">
 				<p>
-					<strong itemprop="name">Leonardo Re</strong><span
-						itemprop="jobTitle"
-						content="Film Director"
-					></span><br />
+					<strong itemprop="name">Leonardo Re</strong>
+					<meta itemprop="jobTitle" content="Film Director" /><br />
 					<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"
-						><span itemprop="streetAddress">Bellermannstr. 93</span><br />
-						<span itemprop="addressCountry" content="DE">D</span>-<span itemprop="postalCode"
+						><span itemprop="streetAddress">Bellermannstr. 93</span><br /><meta itemprop="addressCountry" content="DE" />
+						D-<span itemprop="postalCode"
 							>13357</span
 						> <span itemprop="addressLocality">Berlin</span><br />
 						Germany</span

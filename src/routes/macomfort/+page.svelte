@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>maComfort™: Bring Mac to Windows • Leonardo Re</title>
+	<title>maComfort™: Bring Mac to Windows &#8251; Leonardo Re</title>
 	<meta
 		name="description"
 		content="Bring Mac to Windows - maComfort makes Windows feel like Mac, with features like Quicklook (file preview without opening), Spaces (virtual desktops), Active Corners, Mac hotkeys and more!"

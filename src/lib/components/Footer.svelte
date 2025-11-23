@@ -1,11 +1,7 @@
-<script lang="ts">
-	const currentYear = new Date().getFullYear();
-</script>
-
 <footer>
 	<div>
 		<p>
-			&copy;&nbsp;{currentYear}<br />
+			&copy;&nbsp;{new Date().getFullYear()}<br />
 			<a href="/contact" rel="nofollow" title="Contact Leonardo Re">Contact</a> &ndash;
 			<a href="/legal" title="Legal information" rel="nofollow">Privacy Policy</a>
 		</p>
